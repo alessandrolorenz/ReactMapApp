@@ -76,11 +76,11 @@ class Location extends Component {
                 <h3 style={{ textAlign: "center" }} >LONGITUDE</h3>
                 <h5 style={{ textAlign: "center" }}  >{this.props.value1}</h5>
                 <button onClick={() => this.addLong(this.props.value1)}><i className="fa fa-arrow-right fa-2x"></i></button>
-                <button onClick={() => this.subLong(this.props.value1)}><i className="fa fa-arrow-left fa-5x"></i></button>
+                <button onClick={() => this.subLong(this.props.value1)}><i className="fa fa-arrow-left fa-2x"></i></button>
               </div>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2px" }}>
-              <div style={{ display: "flex", flexDirection: "row", alignItems: "center", marginBottom: "2px", textAlign: "center" }}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "4px" }}>
+              <div style={{ display: "flex", flexDirection: "row", alignItems: "center", marginBottom: "4px", textAlign: "center" }}>
                 <div className='col-md-3' >
                   <div>
 
