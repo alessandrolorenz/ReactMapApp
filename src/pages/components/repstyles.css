@@ -17,6 +17,10 @@ p {
   font-size: 15pt;;
 }
 
+i {
+  height: 20px;
+}
+
 input, a {
   width: 100%;
   justify-content: center;
