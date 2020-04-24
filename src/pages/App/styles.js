@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  height: 60vh;
   width: 100%;
 `;
 
@@ -15,5 +15,4 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-
 `;

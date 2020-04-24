@@ -16,7 +16,7 @@ render(){
   return (
     <>
       <Provider store={store}>
-
+        
         <Content>
           {/* <Repositories /> */}
           <Location />
