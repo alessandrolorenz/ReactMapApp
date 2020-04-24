@@ -69,18 +69,18 @@ class Location extends Component {
               <div className='col-md-6'>
                 <h3 style={{ textAlign: "center" }} >LATITUDE</h3>
                 <h5 style={{ textAlign: "center" }} >{this.props.value}</h5>
-                <button onClick={() => this.addLat(this.props.value)}><i className="fa fa-arrow-up fa-5x"></i></button>
-                <button onClick={() => this.subLat(this.props.value)}><i className="fa fa-arrow-down fa-5x"></i></button>
+                <button onClick={() => this.addLat(this.props.value)}><i className="fa fa-arrow-up fa-2x"></i></button>
+                <button onClick={() => this.subLat(this.props.value)}><i className="fa fa-arrow-down fa-2x"></i></button>
               </div>
               <div className='col-md-6'>
                 <h3 style={{ textAlign: "center" }} >LONGITUDE</h3>
                 <h5 style={{ textAlign: "center" }}  >{this.props.value1}</h5>
-                <button onClick={() => this.addLong(this.props.value1)}><i className="fa fa-arrow-right fa-5x"></i></button>
+                <button onClick={() => this.addLong(this.props.value1)}><i className="fa fa-arrow-right fa-2x"></i></button>
                 <button onClick={() => this.subLong(this.props.value1)}><i className="fa fa-arrow-left fa-5x"></i></button>
               </div>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "5px" }}>
-              <div style={{ display: "flex", flexDirection: "row", alignItems: "center", marginBottom: "5px", textAlign: "center" }}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2px" }}>
+              <div style={{ display: "flex", flexDirection: "row", alignItems: "center", marginBottom: "2px", textAlign: "center" }}>
                 <div className='col-md-3' >
                   <div>
 
